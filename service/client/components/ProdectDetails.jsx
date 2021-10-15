@@ -1,7 +1,7 @@
 import React from 'react'
-export default function ProdectDetails() {
+export default  function ProdectDetails() {
   return (
-    <div className="box-border md:w-auto w-50 ml-60 border-2 border-gray-400 bg-white ">
+    <div className="box-border md:w-auto w-50 ml-60 border-2 border-gray-400 bg-white">
       <div className="compare">COMPARING</div>
       <div className="flex space-x-40 ">
       <div className="name1">Product Short Name</div>
@@ -13,7 +13,7 @@ export default function ProdectDetails() {
       <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
       </svg>
-  
+
       <div className="max-w-md mx-auto text-left">Made with 100% genetic modificat</div>
       <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 float-right  " fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
