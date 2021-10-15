@@ -6,7 +6,7 @@ export default function Cards(props) {
     <div>
       <h6 style={{ fontStyle: 'oblique', color: 'gray',paddingLeft:'120px',marginBottom:'-70px'}}>RELATED PRODUCTS</h6>
       <div className="wrapper">
-        <div >
+        <div>
           <div className="shadow-md rounded-sm overflow-hidden item" style={{ width: '250px', height: '50vh' }}>
             <div className="relative">
               <svg className="absolute top-0 right-0" width="25" height="30" fill="currentColor">

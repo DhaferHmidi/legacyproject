@@ -8,12 +8,19 @@ export default class App extends Component {
     constructor(props){
     super(props)
         this.state = {
-            ShowComparison:true,
-            data:null
+            style : {
+            top: 0,
+            left: 0
+            }
         }
     }
-    //
-    
+    handelClickChange(event){
+        this.setState({
+            style:{
+              
+            }
+        })
+    }
     render() {
         return (
             <div>
